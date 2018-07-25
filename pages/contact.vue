@@ -1,5 +1,5 @@
 <template>
-<form name="contact" method="POST" netlify>
+<form name="contact" action="/contact_submitted" method="POST" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
@@ -15,6 +15,8 @@
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
+  
+ <div data-netlify-recaptcha></div>
   <p>
     <button type="submit">Send</button>
   </p>

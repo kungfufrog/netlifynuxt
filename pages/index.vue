@@ -17,6 +17,8 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey">GitHub</a>
+          <a href="/contant">Contact</a>
+          
       </div>
     </div>
   </section>
