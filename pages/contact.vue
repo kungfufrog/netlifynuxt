@@ -1,5 +1,5 @@
 <template>
-<form name="contact" action="/contact_submitted" method="POST" netlify>
+<form name="contact" action="/thankyou" method="POST" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
